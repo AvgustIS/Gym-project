@@ -5,12 +5,12 @@ public class Main {
         System.out.println();
 
         Member m1 = new Member(101, "Alice", 65, "Basic");
-        Member m2 = new Member();
+        Member m2 = new Member(112, "Isaali",17,"Basic");
         Trainer t1 = new Trainer(501, "Coach Bob", "Crossfit", 10);
         WorkoutSession s1 = new WorkoutSession(901, "Alice", "Cardio", 45);
         WorkoutSession s2 = new WorkoutSession();
 
-        System.out.println(" INITIAL RECORDS ");
+        System.out.println(" INFORMATION  ");
         System.out.println(m1);
         System.out.println(m2);
         System.out.println(t1);
@@ -18,7 +18,7 @@ public class Main {
         System.out.println(s2);
         System.out.println();
 
-        System.out.println(" TESTING LOGIC ");
+        System.out.println(" INFORMATION (about) ");
         System.out.println(m1.getName() + " is senior: " + m1.isSenior());
         m1.applyUpgrade("Premium");
         System.out.println("Updated m1: " + m1);
@@ -28,7 +28,5 @@ public class Main {
 
         System.out.println("Session 1 calories: " + s1.getCaloriesBurned());
         System.out.println("Session 2 intensity: " + s2.getIntensityLevel());
-
-        System.out.println("\n=== Program Complete ===");
     }
 }

@@ -36,7 +36,7 @@ public class Trainer {
     }
 
     public double getPerformanceBonus() {
-        return experienceYears * 150.0;
+        return experienceYears * 15.0;
     }
 
     @Override

@@ -34,7 +34,6 @@ public class WorkoutSession {
     public int getCaloriesBurned() {
         return durationMinutes * 10;
     }
-
     public String getIntensityLevel() {
         if (durationMinutes > 60) return "High";
         return "Moderate";
