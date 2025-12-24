@@ -28,7 +28,5 @@ public class Main {
 
         System.out.println("Session 1 calories: " + s1.getCaloriesBurned());
         System.out.println("Session 2 intensity: " + s2.getIntensityLevel());
-
-        System.out.println("\n=== Program Complete ===");
     }
 }
