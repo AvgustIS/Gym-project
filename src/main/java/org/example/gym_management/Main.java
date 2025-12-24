@@ -1,6 +1,7 @@
+package org.example.gym_management;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("=== GYM MANAGEMENT SYSTEM ===");
+        System.out.println(" GYM MANAGEMENT SYSTEM ");
         System.out.println();
 
         Member m1 = new Member(101, "Alice", 65, "Basic");
@@ -9,7 +10,7 @@ public class Main {
         WorkoutSession s1 = new WorkoutSession(901, "Alice", "Cardio", 45);
         WorkoutSession s2 = new WorkoutSession();
 
-        System.out.println("--- INITIAL RECORDS ---");
+        System.out.println(" INITIAL RECORDS ");
         System.out.println(m1);
         System.out.println(m2);
         System.out.println(t1);
@@ -17,7 +18,7 @@ public class Main {
         System.out.println(s2);
         System.out.println();
 
-        System.out.println("--- TESTING LOGIC ---");
+        System.out.println(" TESTING LOGIC ");
         System.out.println(m1.getName() + " is senior: " + m1.isSenior());
         m1.applyUpgrade("Premium");
         System.out.println("Updated m1: " + m1);

@@ -1,3 +1,4 @@
+package org.example.gym_management;
 public class WorkoutSession {
     private int sessionId;
     private String memberName;

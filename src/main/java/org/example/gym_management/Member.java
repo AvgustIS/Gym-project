@@ -1,3 +1,4 @@
+package org.example.gym_management;
 public class Member {
     private int memberId;
     private String name;
